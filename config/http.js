@@ -4,8 +4,6 @@ module.exports.http = {
   middleware: {
     order: [
       'startRequestTimer',
-      'cookieParser',
-      'session',
       'myRequestLogger',
       'bodyParser',
       'handleBodyParserError',
