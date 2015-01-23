@@ -1,7 +1,9 @@
 {
   "hooks": {
     "views": false,
-    "grunt": false
+    "grunt": false,
+    "sockets": false,
+    "pubsub": false
   },
   "generators": {
     "modules": {}
