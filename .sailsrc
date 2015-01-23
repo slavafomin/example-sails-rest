@@ -1,4 +1,8 @@
 {
+  "hooks": {
+    "views": false,
+    "grunt": false
+  },
   "generators": {
     "modules": {}
   }
