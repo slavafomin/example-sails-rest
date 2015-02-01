@@ -2,6 +2,14 @@
 
 module.exports.http = {
   middleware: {
+
+    disablePoweredBy: function(request, response, next) {
+      var expressApp = sails.hooks.http.app;
+      expressApp.disable('x-powered-by');
+      //response.set('X-Powered-By', 'One Thousand Hamsters');
+      next();
+    },
+
     order: [
       'startRequestTimer',
       'myRequestLogger',
@@ -9,7 +17,7 @@ module.exports.http = {
       'handleBodyParserError',
       'compress',
       'methodOverride',
-      'poweredBy',
+      'disablePoweredBy',
       'router',
       '404',
       '500'
