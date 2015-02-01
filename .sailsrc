@@ -5,7 +5,8 @@
     "sockets": false,
     "pubsub": false,
     "session": false,
-    "blueprints": false
+    "blueprints": false,
+    "csrf": false
   },
   "generators": {
     "modules": {}
