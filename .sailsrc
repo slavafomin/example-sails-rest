@@ -6,7 +6,8 @@
     "pubsub": false,
     "session": false,
     "blueprints": false,
-    "csrf": false
+    "csrf": false,
+    "i18n": false
   },
   "generators": {
     "modules": {}
