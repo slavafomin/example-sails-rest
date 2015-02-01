@@ -4,7 +4,8 @@
     "grunt": false,
     "sockets": false,
     "pubsub": false,
-    "session": false
+    "session": false,
+    "blueprints": false
   },
   "generators": {
     "modules": {}
